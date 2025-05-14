@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pratica1</string>
+    <string name="value1">Value 1:</string>
+    <string name="value2">Value 2:</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="times">*</string>
+    <string name="divide">/</string>
+    <string name="result_start">Result:</string>
+    <string name="result">Result: %1$.2f</string>
+</resources>

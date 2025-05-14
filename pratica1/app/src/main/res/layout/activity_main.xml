@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value1"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:id="@+id/textBox1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/value1"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:id="@+id/value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value2"
+        android:layout_below="@+id/textBox1"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="25dp"/>
+
+    <EditText
+        android:id="@+id/textBox2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/value2"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textBox2"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/plusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus"
+            />
+
+        <Button
+            android:id="@+id/minusBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:layout_marginStart="10dp"
+            />
+
+        <Button
+            android:id="@+id/timesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/times"
+            android:layout_marginStart="15dp"
+            />
+
+        <Button
+            android:id="@+id/divideBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divide"
+            android:layout_marginStart="10dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"/>
+
+</RelativeLayout>
